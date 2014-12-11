@@ -24,7 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter2/orderapp/orderapp.iml" filepath="$PROJECT_DIR$/Chapter2/orderapp/orderapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3/providerdispatch/providerdispatch.iml" filepath="$PROJECT_DIR$/Chapter3/providerdispatch/providerdispatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter6/restapp/restapp.iml" filepath="$PROJECT_DIR$/Chapter6/restapp/restapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chapter7/restapp/restapp.iml" filepath="$PROJECT_DIR$/Chapter7/restapp/restapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restapp-ch7/restapp-ch7.iml" filepath="$PROJECT_DIR$/restapp-ch7/restapp-ch7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3/simplefrontend/simplefrontend.iml" filepath="$PROJECT_DIR$/Chapter3/simplefrontend/simplefrontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/springapp/springapp.iml" filepath="$PROJECT_DIR$/springapp/springapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter8/wsdl2JS/wsdl2JS.iml" filepath="$PROJECT_DIR$/Chapter8/wsdl2JS/wsdl2JS.iml" />
