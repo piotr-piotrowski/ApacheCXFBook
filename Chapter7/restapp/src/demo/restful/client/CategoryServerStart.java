@@ -3,6 +3,8 @@ package demo.restful.client;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
 
@@ -15,13 +17,13 @@ public class CategoryServerStart {
 
 		// Service instance
 
-		CategoryService categoryService = new CategoryService();
+		final CategoryService categoryService = new CategoryService();
 
 		JAXRSServerFactoryBean restServer = new JAXRSServerFactoryBean();
 
 		restServer.setResourceClasses(Category.class);
 
-		restServer.setServiceBeans(categoryService);
+		restServer.setServiceBeans(new ArrayList<Object>() {{add(categoryService);}});
 
 		restServer.setAddress("http://localhost:9000/");
 
